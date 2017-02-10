@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_single_textview.xml",
+        "source": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\layout\\item_single_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_single_textview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\src\\main\\res\\layout\\item_single_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_single_textview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\layout\\item_single_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

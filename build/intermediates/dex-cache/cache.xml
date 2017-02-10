@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\Desktop\github\RecyclerView\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Administrator\Desktop\github\RecyclerView\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_9153b0403bba54b6efd92c9ec8ac747c60a36609.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\github\RecyclerView\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Administrator\Desktop\github\RecyclerView\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_126cc6a273c95021a4cc1912e0c4f3ac7170ae13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Administrator\Desktop\github\RecyclerView\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_c9fae43cda2e1c04b2ab0de43a8f148b5b1a92fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\github\RecyclerView\app\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="C:\Users\Administrator\Desktop\github\RecyclerView\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_79c089207b940bdc9d66ead635ccc250eb2ac6dc.jar" />
+    </item>
+
+</items>

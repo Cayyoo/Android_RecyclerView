@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_add.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_delete.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_delete.png",
+        "source": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_delete.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_add.png",
+        "source": "C:\\Users\\You\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView_AS\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_add.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\github\\RecyclerView\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_add.png"
+    }
+]
