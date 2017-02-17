@@ -14,3 +14,6 @@
  * LayoutManager
  * ItemDecoration
  * ItemAnimator
+ 
+ 
+![screenshot](https://github.com/ykmeory/RecyclerView/blob/master/screenshot_01.jpg "截图")
