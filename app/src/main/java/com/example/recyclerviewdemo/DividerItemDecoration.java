@@ -147,17 +147,31 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
      * 由于Divider也有长宽高，每一个Item需要向下或者向右偏移
      */
     @Override
-    public void getItemOffsets(Rect outRect, int itemPosition,
-                               RecyclerView parent)
-    {
-        if (mOrientation == VERTICAL_LIST)
-        {
+    public void getItemOffsets(Rect outRect, int itemPosition,RecyclerView parent){
+        if (mOrientation == VERTICAL_LIST){
+            int childCount = parent.getAdapter().getItemCount();
+            //如果是最后一行，则不需要绘制底部
+            if (!isLastRaw(parent, itemPosition, childCount)) {
+                outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
+            }
+            
             //画横线，就是往下偏移一个分割线的高度
-            outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
-        } else
-        {
+            //outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
+        } else{
             //画竖线，就是往右偏移一个分割线的宽度
             outRect.set(0, 0, mDivider.getIntrinsicWidth(), 0);
         }
     }
+    
+    //设置LinearLayoutManager时判断是否最后一行
+    private boolean isLastRaw(RecyclerView parent, int pos,int childCount) {
+        RecyclerView.LayoutManager layoutManager = parent.getLayoutManager();
+        
+        if (layoutManager instanceof LinearLayoutManager) {
+            if (pos >= childCount-1)// 如果是最后一行，则不需要绘制底部
+                return true;
+        }
+        return false;
+    }
+    
 }
