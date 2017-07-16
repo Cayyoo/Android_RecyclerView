@@ -73,6 +73,7 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
         setOrientation(orientation);
     }
 
+    //设置屏幕的方向
     public void setOrientation(int orientation)
     {
         if (orientation != HORIZONTAL_LIST && orientation != VERTICAL_LIST)
@@ -96,6 +97,7 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
         }
     }
 
+    //画竖线
     public void drawVertical(Canvas c, RecyclerView parent)
     {
         final int left = parent.getPaddingLeft();
@@ -106,6 +108,8 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
         for (int i = 0; i < childCount; i++)
         {
             final View child = parent.getChildAt(i);
+            
+            //获得child的布局信息
             android.support.v7.widget.RecyclerView v = new android.support.v7.widget.RecyclerView(
                     parent.getContext());
             final RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) child
@@ -117,6 +121,7 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
         }
     }
 
+    //画横线, 这里的parent其实是显示在屏幕显示的这部分
     public void drawHorizontal(Canvas c, RecyclerView parent)
     {
         final int top = parent.getPaddingTop();
@@ -126,6 +131,8 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
         for (int i = 0; i < childCount; i++)
         {
             final View child = parent.getChildAt(i);
+            
+            //获得child的布局信息
             final RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) child
                     .getLayoutParams();
             final int left = child.getRight() + params.rightMargin;
@@ -136,7 +143,8 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
     }
 
     /**
-     * 提供绘制分割线的间隙
+     * 提供绘制分割线的间隙。
+     * 由于Divider也有长宽高，每一个Item需要向下或者向右偏移
      */
     @Override
     public void getItemOffsets(Rect outRect, int itemPosition,
@@ -144,9 +152,11 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
     {
         if (mOrientation == VERTICAL_LIST)
         {
+            //画横线，就是往下偏移一个分割线的高度
             outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
         } else
         {
+            //画竖线，就是往右偏移一个分割线的宽度
             outRect.set(0, 0, mDivider.getIntrinsicWidth(), 0);
         }
     }
