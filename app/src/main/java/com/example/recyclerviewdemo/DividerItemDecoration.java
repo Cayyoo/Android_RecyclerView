@@ -42,6 +42,12 @@ import android.view.View;
  * 2.可在res目录下新建drawable文件夹，新建divider.xml并设置样式数据
  * 3.在styles.xml中的Theme中添加item，由item引用。
  * 4.示例：<item name="android:listDivider">@drawable/divider</item>
+ *
+ * 重要步骤：
+ * 在styles.xml的AppTheme中，设置listDivider为我们的divider.xml文件。比如
+ * <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+ *   <item name="android:listDivider">@drawable/divider_02</item>
+ * </style>
  */
 public class DividerItemDecoration extends RecyclerView.ItemDecoration
 {
