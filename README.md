@@ -17,4 +17,5 @@
  
  
 ![screenshot](https://github.com/ykmeory/RecyclerView/blob/master/screenshot_01.jpg "截图")
+&nbsp;&nbsp;&nbsp;
 ![screenshot02](https://github.com/ykmeory/Android_RecyclerView/blob/master/screenshot_02.jpg "去掉最后一行分割线")
