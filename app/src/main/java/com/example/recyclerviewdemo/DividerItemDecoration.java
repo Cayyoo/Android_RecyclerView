@@ -168,7 +168,11 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration
         RecyclerView.LayoutManager layoutManager = parent.getLayoutManager();
         
         if (layoutManager instanceof LinearLayoutManager) {
-            if (pos >= childCount-1)// 如果是最后一行，则不需要绘制底部
+            /*
+             * 如果是最后一行，则不需要绘制底部分割线。
+             * 若添加了头、尾布局，与头、尾布局衔接处也不绘制分割线，则if条件是pos >= childCount-2 || pos==0
+             */
+            if (pos >= childCount-1)
                 return true;
         }
         return false;
